@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#16181f"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#88a7fd"/>
+  <g transform="translate(742 104) scale(5.2)" fill="#88a7fd" opacity="0.95">
+      <g transform="translate(31.81,8.24) rotate(25.5) scale(0.545)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(20.28,13.15) rotate(-18.9) scale(0.691)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(13.50,18.77) rotate(-24.4) scale(0.783)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(11.34,23.64) rotate(11.6) scale(0.841)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(22.17,29.06) rotate(9.2) scale(0.996)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(30.63,30.06) rotate(1.7) scale(0.930)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(42.52,35.77) rotate(-28.2) scale(0.972)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(50.78,42.97) rotate(1.1) scale(0.937)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(51.02,47.05) rotate(-2.6) scale(0.779)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(45.75,53.18) rotate(20.4) scale(0.722)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+      <g transform="translate(31.26,54.92) rotate(-12.7) scale(0.481)"><path d="M 0 -1.2 Q 4.5 -6.5 9.5 -5.2 Q 4.5 -2.6 0 1.6 Q -4.5 -2.6 -9.5 -5.2 Q -4.5 -6.5 0 -1.2 Z"/></g>
+  </g>
+  <text x="96" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="104" fill="#eceef5">Sarlin</text>
+  <text x="96" y="368" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="36" fill="#a7abbd">A fast, readable programming language.</text>
+</svg>

@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Cltr0gcK.js";var t=e(),n={wide:`max-w-7xl`,default:`max-w-5xl`,prose:`max-w-3xl`};function r({children:e,width:r=`default`,as:i=`div`,className:a=``}){return(0,t.jsx)(i,{className:`mx-auto w-full px-5 sm:px-8 ${n[r]} ${a}`,children:e})}export{r as t};

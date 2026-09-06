@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <link rel="canonical" href="https://sarlin-lang.org/download/" />
+
+    <title>Download | Sarlin</title>
+    <meta name="description" content="Download the Sarlin 0.1.0 compiler for Linux x86_64." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sarlin" />
+    <meta property="og:title" content="Download | Sarlin" />
+    <meta property="og:description" content="Download the Sarlin 0.1.0 compiler for Linux x86_64." />
+    <meta property="og:url" content="https://sarlin-lang.org/download/" />
+    <meta property="og:image" content="https://sarlin-lang.org/social-preview.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Download | Sarlin" />
+    <meta name="twitter:description" content="Download the Sarlin 0.1.0 compiler for Linux x86_64." />
+    <meta name="twitter:image" content="https://sarlin-lang.org/social-preview.svg" />
+
+    <!--
+      Theme bootstrap. Runs before first paint so an explicitly chosen theme
+      never flashes. With no stored choice, no attribute is set and the CSS
+      prefers-color-scheme rules decide, which also keeps the page correct with
+      JavaScript disabled.
+    -->
+    <script>
+      (function () {
+        try {
+          var choice = localStorage.getItem('sarlin-theme')
+          if (choice === 'light') {
+            document.documentElement.setAttribute('data-theme', 'sarlin-light')
+          } else if (choice === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'sarlin-dark')
+          }
+        } catch (error) {
+          /* Storage unavailable: fall back to the system preference. */
+        }
+      })()
+    </script>
+    <script type="module" crossorigin src="/assets/index--U6e6Njs.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-Cltr0gcK.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-D2ICXnk_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 2rem; font-family: system-ui, sans-serif">
+        This site needs JavaScript to render its pages.
+      </p>
+    </noscript>
+  </body>
+</html>

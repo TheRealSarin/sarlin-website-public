@@ -1,0 +1,10 @@
+import{t as e}from"./jsx-runtime-Cltr0gcK.js";import{n as t,t as n}from"./CodeBlock-BswGxEbZ.js";import{t as r}from"./Callout-Dhl6Q-eo.js";import{t as i}from"./Heading-vf8YJh7f.js";import{d as a}from"./index--U6e6Njs.js";import{t as o}from"./DocPage-BaNKuphE.js";var s=e(),c=`#### A complete Sarlin program.
+
+func greeting(name string) string {
+    return "Hello, " + name
+}
+
+func main() {
+    local const name string = "Sarlin"
+    print(greeting(name))
+}`;function l(){return(0,s.jsxs)(o,{title:`Introduction`,lead:`The reference for the implemented Sarlin language.`,children:[(0,s.jsx)(`p`,{children:`Sarlin is a statically typed language that compiles through LLVM to a native executable. Its syntax is explicit, semicolon-free and centred on classes assembled from reusable defines.`}),(0,s.jsx)(n,{code:c,label:`main.sar`}),(0,s.jsx)(i,{id:`using-this-reference`,children:`Using this reference`}),(0,s.jsxs)(`p`,{children:[`These pages document behaviour supported by the current compiler. Start with the`,` `,(0,s.jsx)(a,{to:`/learn/get-started`,children:`Getting Started guide`}),` to build a program, then use the`,` `,(0,s.jsx)(a,{to:`/docs/language`,children:`language reference`}),` for individual features.`]}),(0,s.jsxs)(r,{variant:`note`,title:`No implicit entry point`,children:[`An executable program must declare `,(0,s.jsx)(t,{children:`func main()`}),`. Other functions, classes, defines and globals may be declared before or after it.`]}),(0,s.jsx)(i,{id:`source-files`,children:`Source files and projects`}),(0,s.jsxs)(`p`,{children:[`Sarlin source files use the `,(0,s.jsx)(t,{children:`.sar`}),` extension. A file can be checked independently. In a project, every `,(0,s.jsx)(t,{children:`.sar`}),` file below the project's`,(0,s.jsx)(t,{children:`source/`}),` directory is compiled as one program. Classes and defines are project-wide and require no import statement.`]})]})}export{l as default};
