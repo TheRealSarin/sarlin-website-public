@@ -65,6 +65,10 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sarlin-lang.org/changelog/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://sarlin-lang.org/community/</loc>
     <priority>0.6</priority>
   </url>
