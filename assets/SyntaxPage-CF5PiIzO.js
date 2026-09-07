@@ -1,0 +1,20 @@
+import{t as e}from"./jsx-runtime-Cltr0gcK.js";import{n as t,t as n}from"./CodeBlock-CN3eci3P.js";import{t as r}from"./Callout-BJIfHOFw.js";import{t as i}from"./Heading-COY0RrEn.js";import{t as a}from"./DocPage-BaNKuphE.js";var o=e(),s=`#### File documentation appears before every declaration.
+
+# A normal line comment.
+
+###
+A multiline comment starts and ends with three hashes
+on lines of their own.
+###
+
+## Documentation attached to main.
+func main() {
+    print("Hello") # Comments may follow code.
+}`,c=`func main() {
+    local var total int32 = (4 + 2) * 3
+    local var ready bool = total >= 10 and not false
+    local var message string = "Total: " + total
+
+    print(message)
+    print(ready)
+}`,l=[[`1`,`Member access, calls, indexing`,`value.member, function(), values[index]`],[`2`,`Logical not`,`not`],[`3`,`Multiply, divide, modulo`,`*, /, %`],[`4`,`Add, subtract`,`+, -`],[`5`,`Comparison`,`>, >=, <, <=`],[`6`,`Equality`,`==, !=`],[`7`,`Logical and`,`and`],[`8`,`Logical or`,`or`]];function u(){return(0,o.jsxs)(a,{title:`Syntax and comments`,lead:`The lexical structure of a Sarlin source file.`,children:[(0,o.jsx)(i,{id:`statements-and-blocks`,children:`Statements and blocks`}),(0,o.jsx)(`p`,{children:`Sarlin statements do not end with semicolons. Whitespace separates tokens, while braces delimit function bodies, branches, loops, classes and defines. Parentheses group expressions and contain function arguments.`}),(0,o.jsx)(i,{id:`identifiers`,children:`Identifiers`}),(0,o.jsxs)(`p`,{children:[`An identifier starts with an ASCII letter or underscore and continues with ASCII letters, digits or underscores. Names are case-sensitive. The examples use `,(0,o.jsx)(t,{children:`PascalCase`}),`for classes and defines and `,(0,o.jsx)(t,{children:`snake_case`}),` for values and functions.`]}),(0,o.jsx)(i,{id:`literals`,children:`Literals`}),(0,o.jsxs)(`p`,{children:[`Sarlin has integer literals, decimal floating-point literals, the booleans`,(0,o.jsx)(t,{children:`true`}),` and `,(0,o.jsx)(t,{children:`false`}),`, and double-quoted strings. Strings occupy one source line and currently have no escape syntax. Arrays and dictionaries use bracket literals; they are covered on the Collections page.`]}),(0,o.jsx)(i,{id:`comments`,children:`Comments and documentation`}),(0,o.jsx)(n,{code:s,label:`comments.sar`}),(0,o.jsxs)(`ul`,{children:[(0,o.jsxs)(`li`,{children:[(0,o.jsx)(t,{children:`#`}),` begins a normal comment.`]}),(0,o.jsxs)(`li`,{children:[(0,o.jsx)(t,{children:`##`}),` documents the declaration immediately following it.`]}),(0,o.jsxs)(`li`,{children:[(0,o.jsx)(t,{children:`###`}),` delimits a multiline comment.`]}),(0,o.jsxs)(`li`,{children:[(0,o.jsx)(t,{children:`####`}),` records file documentation and must precede all declarations.`]})]}),(0,o.jsx)(i,{id:`expressions`,children:`Expressions and operators`}),(0,o.jsx)(n,{code:c,label:`expressions.sar`}),(0,o.jsx)(`div`,{className:`not-prose border-base-300 my-5 overflow-x-auto rounded-box border`,children:(0,o.jsxs)(`table`,{className:`table-sm table w-full`,children:[(0,o.jsx)(`thead`,{children:(0,o.jsxs)(`tr`,{children:[(0,o.jsx)(`th`,{children:`Precedence`}),(0,o.jsx)(`th`,{children:`Operation`}),(0,o.jsx)(`th`,{children:`Syntax`})]})}),(0,o.jsx)(`tbody`,{children:l.map(([e,t,n])=>(0,o.jsxs)(`tr`,{children:[(0,o.jsxs)(`td`,{children:[e,` (higher first)`]}),(0,o.jsx)(`td`,{children:t}),(0,o.jsx)(`td`,{className:`font-mono`,children:n})]},e))})]})}),(0,o.jsx)(`p`,{children:`Arithmetic requires numeric operands. Comparisons produce booleans. Logical operators require booleans. Addition concatenates strings and automatically converts primitive numeric and boolean operands when a string is required.`}),(0,o.jsxs)(r,{variant:`note`,title:`Negative values`,children:[`A minus directly before a numeric literal is part of that literal, as in`,(0,o.jsx)(t,{children:`-42`}),`. Sarlin does not currently provide general unary numeric negation; use `,(0,o.jsx)(t,{children:`0 - value`}),` for an expression.`]})]})}export{u as default};

@@ -61,6 +61,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sarlin-lang.org/docs/language/callables-and-signals/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sarlin-lang.org/docs/language/foreign-functions/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sarlin-lang.org/download/</loc>
     <priority>0.8</priority>
   </url>
