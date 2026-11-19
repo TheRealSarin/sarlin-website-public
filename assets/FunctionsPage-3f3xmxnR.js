@@ -1,0 +1,23 @@
+import{t as e}from"./jsx-runtime-Cltr0gcK.js";import{n as t,t as n}from"./CodeBlock-CfUYbvDv.js";import{t as r}from"./Callout-DGneS21x.js";import{t as i}from"./Heading-CtLDK4Z6.js";import{b as a}from"./index-Cwm0VSKK.js";import{t as o}from"./DocPage-BaNKuphE.js";var s=e(),c=`func add(left int32, right int32) int32 {
+    return left + right
+}
+
+func show_total(value int32) {
+    print("Total: " + value)
+}
+
+func main() {
+    local var total int32 = add(10, 20)
+    show_total(total)
+}`,l=`func report(health int32) {
+    if health <= 0 {
+        print("Nothing to report")
+        return
+    }
+    print("Health: " + health)
+}
+
+func main() {
+    report(0)
+    report(40)
+}`;function u(){return(0,s.jsxs)(o,{title:`Functions`,lead:`Typed reusable behaviour and program entry points.`,children:[(0,s.jsx)(i,{id:`declaration`,children:`Declaring and calling functions`}),(0,s.jsx)(n,{code:c,label:`functions.sar`}),(0,s.jsxs)(`p`,{children:[`A function begins with `,(0,s.jsx)(t,{children:`func`}),`, followed by its name and parameter list. Every parameter has a name followed by a type. Parameters are separated by commas. Put the return type after the closing parenthesis, or omit it for a function that returns no value.`]}),(0,s.jsxs)(`p`,{children:[`Calls use positional arguments and must provide exactly the declared number. Numeric values are converted to the parameter type automatically. A managed argument (array, dictionary, class instance) is borrowed: the function can read and change it, but the caller keeps ownership. Write `,(0,s.jsx)(t,{children:`take`}),` before a parameter name, as in`,` `,(0,s.jsx)(t,{children:`func keep(take item Item)`}),`, to move the argument into the function instead; see `,(0,s.jsx)(a,{to:`/docs/language/values-and-copying`,children:`Values and copying`}),`.`]}),(0,s.jsx)(i,{id:`returns`,children:`Return values`}),(0,s.jsxs)(`p`,{children:[(0,s.jsx)(t,{children:`return expression`}),` immediately leaves a value-returning function. Every possible path through such a function must return a value of its declared type.`,(0,s.jsx)(t,{children:`return`}),` with no value is a compile error in such a function:`,` `,(0,s.jsx)(t,{children:`a function with a return type must return a value`}),`.`]}),(0,s.jsxs)(`p`,{children:[`A call to a function with no return type has no value, so it can only stand on its own as a statement. Storing it, passing it on, printing it or calling a method on it, as in`,` `,(0,s.jsx)(t,{children:`box.grow().grow()`}),`, reports`,` `,(0,s.jsx)(t,{children:`function 'grow' does not return a value`}),`. Before 0.1.6 a method called on such a result or printing it went unreported.`]}),(0,s.jsx)(i,{id:`early-return`,children:`Returning early`}),(0,s.jsx)(n,{code:l,label:`early_return.sar`}),(0,s.jsxs)(`p`,{children:[`A function with no return type can leave early with a bare`,` `,(0,s.jsx)(t,{children:`return`}),`. It works inside nested `,(0,s.jsx)(t,{children:`if`}),`,`,` `,(0,s.jsx)(t,{children:`while`}),` and `,(0,s.jsx)(t,{children:`for`}),` blocks, and in class and define methods. A `,(0,s.jsx)(t,{children:`return`}),` at the end of a line is always a bare return. Writing `,(0,s.jsx)(t,{children:`return value`}),` in a function with no return type is still an error: `,(0,s.jsx)(t,{children:`function without a return type cannot return a value`}),`.`]}),(0,s.jsx)(i,{id:`callables`,children:`Callables`}),(0,s.jsxs)(`p`,{children:[`A `,(0,s.jsx)(t,{children:`callable`}),` binds a name to a declared function and is called the same way. A callable shape names a function signature so functions can be passed, stored and returned as values. See `,(0,s.jsx)(a,{to:`/docs/language/callables-and-signals`,children:`Callables and signals`}),`.`]}),(0,s.jsxs)(`p`,{children:[`A function body can also be written in C, C++ or Rust with`,` `,(0,s.jsx)(t,{children:`external`}),`. See`,` `,(0,s.jsx)(a,{to:`/docs/language/foreign-functions`,children:`Foreign functions`}),`.`]}),(0,s.jsx)(i,{id:`main`,children:`The main function`}),(0,s.jsxs)(`p`,{children:[`A native executable requires exactly `,(0,s.jsx)(t,{children:`func main()`}),`, with no parameters and no return type. Execution begins there.`]}),(0,s.jsx)(r,{variant:`note`,title:`Methods`,children:`Functions declared inside a class or define are methods. They can directly access that owner's fields, methods and composed defines. Call them through a value with dot syntax.`})]})}export{u as default};

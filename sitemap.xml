@@ -37,6 +37,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sarlin-lang.org/docs/language/threads/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sarlin-lang.org/docs/language/control-flow/</loc>
     <priority>0.6</priority>
   </url>
